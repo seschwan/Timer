@@ -12,6 +12,7 @@
 		B376ED92228A475200879008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B376ED90228A475200879008 /* Main.storyboard */; };
 		B376ED94228A475200879008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B376ED93228A475200879008 /* Assets.xcassets */; };
 		B376ED97228A475200879008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B376ED95228A475200879008 /* LaunchScreen.storyboard */; };
+		B376EDA4228A4BD600879008 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376EDA3228A4BD600879008 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B376ED93228A475200879008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B376ED96228A475200879008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B376ED98228A475200879008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B376EDA3228A4BD600879008 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				B376ED8B228A475200879008 /* Timer */,
+				B376EDA2228A4B5700879008 /* Resources */,
 				B376ED8A228A475200879008 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +57,54 @@
 		B376ED8B228A475200879008 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				B376ED8C228A475200879008 /* AppDelegate.swift */,
-				B376ED8E228A475200879008 /* ViewController.swift */,
-				B376ED90228A475200879008 /* Main.storyboard */,
-				B376ED93228A475200879008 /* Assets.xcassets */,
-				B376ED95228A475200879008 /* LaunchScreen.storyboard */,
-				B376ED98228A475200879008 /* Info.plist */,
+				B376EDA0228A4B3B00879008 /* Model */,
+				B376EDA1228A4B4400879008 /* Controller */,
+				B376ED9E228A4B1E00879008 /* ViewControllers */,
+				B376ED9F228A4B2C00879008 /* StoryBoards */,
 			);
 			path = Timer;
+			sourceTree = "<group>";
+		};
+		B376ED9E228A4B1E00879008 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B376ED8E228A475200879008 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B376ED9F228A4B2C00879008 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				B376ED90228A475200879008 /* Main.storyboard */,
+				B376ED95228A475200879008 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		B376EDA0228A4B3B00879008 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B376EDA3228A4BD600879008 /* CustomButton.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B376EDA1228A4B4400879008 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B376EDA2228A4B5700879008 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B376ED8C228A475200879008 /* AppDelegate.swift */,
+				B376ED93228A475200879008 /* Assets.xcassets */,
+				B376ED98228A475200879008 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +180,7 @@
 			files = (
 				B376ED8F228A475200879008 /* ViewController.swift in Sources */,
 				B376ED8D228A475200879008 /* AppDelegate.swift in Sources */,
+				B376EDA4228A4BD600879008 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
